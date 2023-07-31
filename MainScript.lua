@@ -30,7 +30,6 @@ player.CharacterAdded:Connect(function(character)
     humanoid.Died:Connect(function()
         sendMsg = false
         task.wait(1)
-        script.Parent = nil
     end)
 end)
 while sendMsg do  
